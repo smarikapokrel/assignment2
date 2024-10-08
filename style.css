@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Body Style*/
+body{
+  font-family: 'Arial', sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/*Header Style*/
+header{
+  background-color: #4a90e2;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1{
+  font-size: 3.5em;
+  margin-bottom: 6px;
+
+}
+
+header p{
+  font-size: 1.5em;
+}
+
+
+/*Section and lyrics Styling*/
+section{
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 20px auto;
+  width: 80;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+ 
+}
+
+section h2{
+  font-size: 1.8 em;
+  color: #01070e;
+  margin-bottom: 20px;
+}
+
+
+/*Different Font Style for Emotions*/
+.calm{
+  font-family: 'Dancing Script', cursive;
+  color: #2ecc71; /*Green for calmess*/
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.longing{
+  font-family: 'Lobster', cursive;
+  color: #3498db; /*Blue for longing*/
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  font-style: italic; /*italic for emphasis*/
+}
+
+.intense{
+  font-family: 'Anton', sans-serif;
+  color:#e74c3c; /*red for intensity*/
+  font-size: 1.6em;
+  text-transform: uppercase; /*uppercase for emphasis*/
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/*Footer Style*/
+footer{
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
